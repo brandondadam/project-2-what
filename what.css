@@ -23,6 +23,12 @@ h2{
 	color: grey;
 }
 
+h3{
+	font-size: 15px;
+	font-weight: 400;
+	color: grey;
+}
+
 textarea{
 	font-family: helvetica, sans-serif;
 	font-size: 20px;
@@ -36,7 +42,8 @@ textarea{
 
 button{
 	font-family: helvetica, sans-serif;
-	background-color: red;
+	color: white;
+	background-color: black;
 	border-color: black;
 	border-radius: 3px;
 	border-style:solid;
