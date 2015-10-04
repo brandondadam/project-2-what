@@ -5,10 +5,9 @@ var submit_btn = document.getElementById('submit');
 var answer = document.getElementById('answer');
 var right = "Yup, that car is pretty nice.";
 var wrong = "I think that car sucks.";
-
 var correctAnswers = [
 	'mazda rx7',
-	'mazda rx7',
+	'mazda rx8',
 	'mazda rx3',
 	'mazda miata',
 	'mazda mx5',
@@ -43,11 +42,11 @@ textarea.addEventListener('change', function(){
 	form.submit();
 }, false );
 
-
-	if (correctAnswers[0] == what){
+for(var i = 0; i < 25; i++){
+	if (what == correctAnswers[i]){
 		var correct = true;
 	}
-
+}
 
 submit_btn.addEventListener('click', function(){
 	if(correct == true){
