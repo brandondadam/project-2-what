@@ -11,6 +11,7 @@ html {
 body {
 	font-family: helvetica, sans-serif;
 }
+
 h1{
 	font-size: 35px;
 	font-weight: 600;
@@ -60,11 +61,21 @@ button{
 	line-height: 1.6em;
 }
 
+#car{
+	width: 50px;
+	height: auto;
+	padding: 25px;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
 	#page {
 		width: 600px;
 		font-size: 16px;
+		margin: 0 auto;
+	}
+	#car {
+		width: 600px;
 		margin: 0 auto;
 	}
 }
@@ -74,6 +85,10 @@ button{
 	#page {
 		width: 960px;
 		font-size: 18px;
+		padding: 25px 150px;
+	}
+	#car {
+		width: 960px;
 		padding: 25px 150px;
 	}
 }
